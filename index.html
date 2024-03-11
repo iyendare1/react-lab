@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To Do List</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<!-- <body class="h-screen w-screen flex items-center justify-center"> -->
+		
+
+	<body>
+	<div class="container">
+		<header>
+			<h1>
+				2 Do List
+			</h1>
+			<p class="text-slate-800/60 font-medium text-xs mb-0.5">
+				manage all your to-dos in one place.
+			</p>
+			<span class="id">sdfsdf</span>
+		</header>
+		<main class="flex gap-y-6 flex-col items-center">
+			<nav>
+				<div class="flex gap-x-4">
+					<a
+						class="tryout"
+						href="live-demo.html">
+						Try out the demo
+					</a>
+					<a
+						class="free-account"
+						href="login.html">
+						Create A Free Account
+					</a>
+				</div>
+
+				<p class="credit">
+					No Credit Card Required
+				</p>
+			</div>
+		</main>
+		<script>
+			fetch('../todos.json')
+		</script>
+	</body>
+</html>
